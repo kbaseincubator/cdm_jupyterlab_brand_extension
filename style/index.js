@@ -8,7 +8,7 @@ let link = document.createElement('link')
 let oldLink = document.getElementsByClassName('favicon');
 link.rel = 'icon';
 link.type = 'image/x-icon';
-link.href = 'https://raw.githubusercontent.com/innovationOUtside/jupyterlab_ou_brand_extension/main/style/images/favicon.ico';
+link.href = 'https://www.kbase.us/wp-content/uploads/sites/6/2020/08/kbase-favicon-32-bgwhite_rounded_corners.png';
 if (oldLink) {
     link.classList = oldLink[0].classList;
     head.removeChild(oldLink[0]);
