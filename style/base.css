@@ -1,6 +1,20 @@
+/* Increase the top panel height to accommodate larger logo */
+#jp-top-panel {
+    min-height: 60px !important;
+}
+
+/* Make the main logo larger and more prominent */
 #jp-MainLogo {
-    background-image: url(./images/kbase_logo_36x28.png);
+    background-image: url(./images/kbase_logo_rect.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+    width: 175px !important;
+    height: 55px !important;
+    min-width: 175px !important;
+    min-height: 55px !important;
+    flex-shrink: 0 !important;
+    margin-right: 16px !important;
 }
 
 #jp-MainLogo>svg {
@@ -8,8 +22,14 @@
 }
 
 #jp-RetroLogo {
-    background-image: url(./images/kbase_logo_53x42.png);
+    background-image: url(./images/kbase_logo_rect.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 175px !important;
+    height: 70px !important;
+    min-width: 175px;
+    min-height: 70px;
 }
 
 #jp-RetroLogo>svg {
@@ -17,8 +37,14 @@
 }
 
 #jp-NotebookLogo {
-    background-image: url(./images/kbase_logo_53x42.png);
+    background-image: url(./images/kbase_logo_rect.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 175px !important;
+    height: 70px !important;
+    min-width: 175px;
+    min-height: 70px;
 }
 
 #jp-NotebookLogo>svg {
