@@ -50,3 +50,29 @@
 #jp-NotebookLogo>svg {
     visibility: hidden;
 }
+
+/* Token expiration warning styles */
+.kbase-token-warning,
+.kbase-token-expired {
+    padding: 8px 0;
+    line-height: 1.5;
+}
+
+.kbase-token-warning p,
+.kbase-token-expired p {
+    margin: 8px 0;
+}
+
+.kbase-token-warning p:first-child,
+.kbase-token-expired p:first-child {
+    margin-top: 0;
+}
+
+.kbase-token-warning p:last-child,
+.kbase-token-expired p:last-child {
+    margin-bottom: 0;
+}
+
+.kbase-token-expired {
+    color: var(--jp-error-color1);
+}
